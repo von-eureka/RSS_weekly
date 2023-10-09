@@ -17,7 +17,7 @@
 * `rss_titles`：标题，将来自不同rss源的信息进行分类
 * `database_keywords`:关键词，可以用来过滤你想在周报里看到的信息
 * `date_attributes`:周报获取rss源日期的位置，这里需要使用来对rss地址进行解析来获得。
-  >如果你不清楚你所订阅的rss源日期位置是哪个，那就修改** analyse feedd.py **中的rss_url并运行，便可看到解析后的rss源。
+  >如果你不清楚你所订阅的rss源日期位置是哪个，那就修改analyse feedd.py中的rss_url并运行，便可看到解析后的rss源。
 
   >如果还不清楚，那就将解析后的rss源直接全部拷贝下来塞到chatgpt中，让他告诉你日期位置在哪里。
 所有参数设置完毕后运行即可。
