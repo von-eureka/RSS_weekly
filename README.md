@@ -31,9 +31,20 @@
 ## 运行环境
 ### OS
 windows：windows11已测试，可正常运行
-macOS:由于macOS的安全策略问题，因此会出现`feedparser`无法读取RSS的情况，故暂不推荐在macOS上使用
+macOS:在macOS上需进行以下操作：
+* 打开访达>应用程序>python3.x（3.x为你安装的python版本号）>运行Install Certificates.command即可
+> 如没有此文件，参考:
+> 
+> https://stackoverflow.com/questions/44649449/brew-installation-of-python-3-6-1-ssl-certificate-verify-failed-certificate/44649450#44649450
+
+* 如上述方案不能解决，请下载**rss_weekly(SSL).py**
+> **注意！非常不推荐这样做，除非您绝对信任您添加的网站，这可能会带来巨大的安全问题，其原理为绕过SSL证书认证。**
+  
+
+
 ### Requirements
-需要`feedparser` `beautifulsoup4`包
+* python3
+* 需要`feedparser` `beautifulsoup4`包
 ## 更新计划
 * 更简洁的代码
 * UI
