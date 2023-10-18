@@ -31,7 +31,8 @@
 ## 运行环境
 ### OS
 windows：windows11已测试，可正常运行
-macOS:在macOS上需进行以下操作：
+
+macOS: 在macOS上需进行以下操作：
 * 打开访达>应用程序>python3.x（3.x为你安装的python版本号）>运行Install Certificates.command即可
 > 如没有此文件，参考:
 > 
